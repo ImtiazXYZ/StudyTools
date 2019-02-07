@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //It is uploaded on Githu
+        //It is uploaded on Gith
 
         startActivity(new Intent(this, LoginActivity.class));
 
