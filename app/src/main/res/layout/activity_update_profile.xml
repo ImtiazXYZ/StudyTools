@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activity.UpdateProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/input_update_name"
+            style="@style/editTextStyle"
+            android:hint="@string/editText_hint_name"
+            android:inputType="textPersonName"
+            android:textColor="@color/primary_text" />
+
+        <EditText
+            android:id="@+id/input_update_email"
+            style="@style/editTextStyle"
+            android:hint="@string/editText_hint_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/input_update_mobile"
+            style="@style/editTextStyle"
+            android:hint="@string/editText_hint_mobile_number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/input_update_username"
+            style="@style/editTextStyle"
+            android:hint="@string/editText_hint_username"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/input_update_password"
+            style="@style/editTextStyle"
+            android:hint="@string/editText_hint_password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_chooseFile"
+            style="@style/button_style"
+            android:onClick="chooseImage"
+            android:text="Choose Image" />
+
+        <Button
+            android:id="@+id/button_update"
+            style="@style/button_style"
+            android:onClick="update"
+            android:text="@string/button_update_profile" />
+
+    </LinearLayout>
+
+
+</ScrollView>

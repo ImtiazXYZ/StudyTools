@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".activity.teacher.TeacherProfileActivity">
+
+    <Button
+        style="@style/button_style"
+        android:text="Add Course"
+        android:onClick="goToAddCourse"
+        />
+
+    <Button
+        style="@style/button_style"
+        android:onClick="goToUploadFile"
+        android:text="Upload File" />
+
+    <Button
+        style="@style/button_style"
+        android:onClick="goToDocumentList"
+        android:text="List of Documents" />
+
+    <Button
+        style="@style/button_style"
+        android:onClick="goToQuestionList"
+        android:text="List of Questions" />
+
+    <Button
+        style="@style/button_style"
+        android:onClick="goToAddAnswers"
+        android:text="Add Answers of questions" />
+
+    <Button
+        style="@style/button_style"
+        android:onClick="goToExamResult"
+        android:text="Check Exam Result" />
+
+    <Button
+        style="@style/button_style"
+        android:onClick="goToUpdateProfile"
+        android:text="Update Profile" />
+
+</LinearLayout>
